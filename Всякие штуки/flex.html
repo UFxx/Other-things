@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="../assets/img/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/flex.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+</head>
+<header>
+    <nav>
+        <div class="back">
+            <a href="/index.html">Назад</a>
+        </div>
+        <ul>
+            <li><a href="#display-flex">display: flex;</a></li>
+            <li><a href="#flex-direction">flex-direction</a></li>
+            <li><a href="#flex-wrap">flex-wrap</a></li>
+            <li><a href="#justify-content">justify-content</a></li>
+            <li><a href="#align-items">align-items</a></li>
+            <li><a href="#flex-basis">flex-basis</a></li>
+            <li><a href="#flex-grow">flex-shrink</a></li>
+            <li><a href="#align-self">align-self</a></li>
+            <li><a href="#order">order</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="display-flex" id="display-flex">    
+        <div class="block1">
+            <div class="flex1">display: flex;</div>
+            <div class="flex2">Второй</div>
+            <div class="flex3">Третий</div>
+            <div class="flex4">Четвёртый</div>
+        </div>
+    </div>
+    <div class="flex-diretion" id="flex-direction">
+        <div class="row">
+            <div class="row1">flex-direction: row;</div>
+            <div class="row2">Второй</div>
+            <div class="row3">Третий</div>
+            <div class="row4">Четвёртый</div>
+        </div>
+        <div class="row-reverse">
+            <div class="row-reverse1">flex-direction: row-reverse;</div>
+            <div class="row-reverse2">Второй</div>
+            <div class="row-reverse3">Третий</div>
+            <div class="row-reverse4">Четвёртый</div>
+        </div>
+        <div class="column">
+            <div class="column1">flex-direction: column;</div>
+            <div class="column2">Второй</div>
+            <div class="column3">Третий</div>
+            <div class="column4">Четвёртый</div>
+        </div>
+        <div class="column-reverse">
+            <div class="column-reverse1">flex-direction: column-reverse;</div>
+            <div class="column-reverse2">Второй</div>
+            <div class="column-reverse3">Третий</div>
+            <div class="column-reverse4">Четвёртый</div>
+        </div>
+    </div>
+    <div class="flex-wrap" id="flex-wrap">
+        <div class="wrap">
+            <div class="wrap1">flex-wrap: wrap;</div>
+            <div class="wrap2">Второй</div>
+            <div class="wrap3">Третий</div>
+            <div class="wrap4">Четвёртый</div>
+        </div>
+    </div>
+    <div class="justify-content" id="justify-content">
+        <div class="flex-end">
+            <div class="end1">justify-content: flex-end;</div>
+            <div class="end2">Второй</div>
+            <div class="end3">Третий</div>
+            <div class="end4">Четвёртый</div>
+        </div>
+        <div class="center">
+            <div class="center1">justify-content: center;</div>
+            <div class="center2">Второй</div>
+            <div class="center3">Третий</div>
+            <div class="center4">Четвёртый</div>
+        </div>
+        <div class="space-between">
+            <div class="between1">justify-content: space-between;</div>
+            <div class="between2">Второй</div>
+            <div class="between3">Третий</div>
+            <div class="between4">Четвёртый</div>
+        </div>
+        <div class="space-around">
+            <div class="around1">justify-content: space-around;</div>
+            <div class="around2">Второй</div>
+            <div class="around3">Третий</div>
+            <div class="around4">Четвёртый</div>
+        </div>
+    </div>
+    <div class="align-items" id="align-items">
+        <div class="flex-start">
+            <div class="flex-start1">align-items: flex-start;</div>
+            <div class="flex-start2">Второй</div>
+            <div class="flex-start3">Третий</div>
+            <div class="flex-start4">Четвёртый</div>
+        </div>
+        <div class="aflex-end">
+            <div class="flex-end1">align-items: flex-end;</div>
+            <div class="flex-end2">Второй</div>
+            <div class="flex-end3">Третий</div>
+            <div class="flex-end4">Четвёртый</div>
+        </div>
+        <div class="acenter">
+            <div class="acenter1">align-items: center;</div>
+            <div class="acenter2">Второй</div>
+            <div class="acenter3">Третий</div>
+            <div class="acenter4">Четвёртый</div>
+        </div>
+    </div>
+    <div class="align-content" id="align-content">
+        <div class="acflex-start">
+            <div class="acstart1">align-content: flex-start; justify-content: space-around; flex-wrap: wrap;</div>
+            <div class="acstart2">Второй</div>
+            <div class="acstart3">Третий</div>
+            <div class="acstart4">Четвёртый</div>
+        </div>
+    </div>
+</body>
+    <div class="flex-basis" id="flex-basis">
+        <div class="basis">
+            <div class="basis1">flex-basis: 3%; flex-wrap: wrap;</div>
+            <div class="basis2">Второй</div>
+            <div class="basis3">Третий</div>
+            <div class="basis4">Четвёртый</div>
+        </div>
+    </div>
+    <div class="flex-grow" id="flex-grow">
+        <div class="grow">
+            <div class="grow1">flex-grow: 1; Блок будет ВСЕГДА той ширины, которую задал.</div>
+            <div class="grow2">Второй</div>
+            <div class="grow3">Третий</div>
+            <div class="grow4">Четвёртый</div>
+        </div>
+    </div>
+    <div class="flex-shrink" id="flex-shrink">
+        <div class="shrink">
+            <div class="shrink1">flex-shrink: 1; Блок будет расширяться, когда ему нужноооооооооооооооооооооооооооооооооооооо</div>
+            <div class="shrink2">Второй</div>
+            <div class="shrink3">Третий</div>
+            <div class="shrink4">Четвёртый</div>
+        </div>
+    </div>
+    <div class="align-self" id="align-self">
+        <div class="self">
+            <div class="self1">align-self: center; для :last-child</div>
+            <div class="self2">Второй</div>
+            <div class="self3">Третий</div>
+            <div class="self4">Четвёртый</div>
+        </div>
+    </div>
+    <div class="order" id="order">
+        <div class="ord">
+            <div class="ord1">align-self: center; для :last-child</div>
+            <div class="ord2">Второй</div>
+            <div class="ord3">Третий</div>
+            <div class="ord4">Четвёртый</div>
+        </div>
+    </div>
+</body>
+</html>

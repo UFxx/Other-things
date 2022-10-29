@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.back {
+    position: absolute;
+    margin-left: 10%;
+}
+
+body {
+    height: 300vh;
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    height: 20px;
+    background-color: wheat;
+    text-align: center;
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+/* display flex */
+
+.block1 {
+    text-align: center;
+    color: white;
+    border: 1px solid;
+    height: 200px;
+    width: 400px;
+    background-color: blue;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.block1 div {
+    border: 1px solid black;
+}
+
+/* flex-direction */
+
+.flex-diretion {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-diretion div {
+    border: 1px solid black;
+}
+
+/* row */
+
+.row {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    height: 150px;
+    width: 350px;
+}
+
+.row div {
+    border: 1px solid;
+}
+
+/* row-reverse */
+
+.row-reverse {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: green;
+    height: 150px;
+    width: 350px;
+}
+
+.row-reverse div {
+    border: 1px solid;
+}
+
+/* column */
+
+.column {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    height: 150px;
+    width: 350px;
+}
+
+.column div {
+    border: 1px solid;
+}
+
+/* column-reverse */
+
+.column-reverse {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: green;
+    height: 150px;
+    width: 350px;
+}
+
+.column-reverse div {
+    border: 1px solid;
+}
+
+/* flex-wrap */
+
+.flex-wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-wrap div {
+    border: 1px solid black;
+}
+
+.wrap {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: red;
+    height: 150px;
+    width: 200px;
+}
+
+.wrap div {
+    border: 1px solid;
+}
+
+/* justify-content */
+
+.justify-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.justify-content div {
+    border: 1px solid black;
+}
+
+/* flex-end */
+
+.flex-end {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    background-color: blueviolet;
+    height: 150px;
+    width: 400px;
+}
+
+.flex-end div {
+    border: 1px solid;
+}
+
+/* flex-ceter */
+
+.center {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 150px;
+    width: 400px;
+}
+
+.center div {
+    border: 1px solid;
+}
+
+/* space-between */
+
+.space-between {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 150px;
+    width: 400px;
+}
+
+.space-between div {
+    border: 1px solid;
+}
+
+/* space-around */
+
+.space-around {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 150px;
+    width: 400px;
+}
+
+.space-around div {
+    border: 1px solid;
+}
+
+/* align-items */
+
+.align-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.align-items div {
+    border: 1px solid black;
+}
+
+/* flex-start */
+
+.flex-start {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    background-color: burlywood;
+    height: 150px;
+    width: 400px;
+}
+
+.flex-start div {
+    border: 1px solid;
+}
+
+/* flex-end */
+
+.aflex-end {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    background-color: burlywood;
+    height: 150px;
+    width: 400px;
+}
+
+.aflex-end div {
+    border: 1px solid;
+}
+
+/* align items: flex-center; */
+
+.acenter {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: burlywood;
+    height: 150px;
+    width: 400px;
+}
+
+.acenter div {
+    border: 1px solid;
+}
+
+/* align-content */
+
+.align-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.align-content div {
+    border: 1px solid black;
+}
+
+/* flex-start */
+
+.acflex-start {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: black;
+    display: flex;
+    align-content: center;
+    background-color: aquamarine;
+    height: 150px;
+    width: 300px;
+}
+
+.acflex-start div {
+    border: 1px solid;
+}
+
+/* flex-basis */
+
+.flex-basis {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-basis div {
+    border: 1px solid black;
+}
+
+.basis {
+    flex-wrap: wrap;
+    flex-basis: 3%;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: black;
+    display: flex;
+    background-color: aqua;
+    height: 150px;
+    width: 300px;
+}
+
+.basis div {
+    border: 1px solid;
+}
+
+/* flex-grow */
+
+.flex-grow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-grow div {
+    border: 1px solid black;
+}
+
+.grow {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: black;
+    display: flex;
+    background-color: rgb(218, 221, 51);
+    height: 150px;
+    width: 300px;
+}
+
+.grow div {
+    border: 1px solid;
+    flex-grow: 1;
+}
+
+/* flex-shrink */
+
+.flex-shrink {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-shrink div {
+    border: 1px solid black;
+}
+
+.shrink {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: black;
+    display: flex;
+    background-color: orange;
+    height: 150px;
+    width: 300px;
+}
+
+.shrink div {
+    border: 1px solid;
+    flex-shrink: 1;
+}
+
+/* align-self */
+
+.align-self {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.align-self div {
+    border: 1px solid black;
+}
+
+.self {
+    align-items: flex-end;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: black;
+    display: flex;
+    background-color: olivedrab;
+    height: 150px;
+    width: 300px;
+}
+
+.self div {
+    border: 1px solid;
+}
+
+.self div:last-child {
+    align-self: center;
+}
+
+/* order */
+
+.order {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.order div {
+    border: 1px solid black;
+}
+
+.ord {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 40px;
+    color: white;
+    display: flex;
+    background-color: darkblue;
+    height: 150px;
+    width: 300px;
+}
+
+.ord div {
+    border: 1px solid;
+}
+
+.ord .ord3 {
+    order: 4;
+}

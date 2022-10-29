@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/assets/img/android-chrome-512x512.png">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Всякие штуки</title>
+</head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#margin">Margin</a></li>
+            <li><a href="#keyframes">Animation</a></li>
+            <li><a href="#transform">Transform</a></li>
+            <li><a href="#pseudoclasses">Pseudoclasses</a></li>
+            <li><a href="#pseudoelements">Pseudoelements</a></li>
+            <li><a href="#semantic-tags">Semantic tags</a></li>
+            <li><a href="#display">Display</a></li>
+            <li><a href="#other">Other</a></li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="margin" id="margin">
+        <div class="block1">Без margin</div>
+        <div class="block2">margin 0 auto</div>
+    </div>
+    <div class="keyframes" id="keyframes">
+        <div class="block3">Анимация (keyframes)</div>
+    </div>
+    <div class="transform" id="transform">
+        <div class="block4">transform (:hover)</div>
+        <div class="block5">transofrm: translateY()</div>
+        <div class="block6">transform: scale()</div>
+        <div class="block7">transform: skew()</div>
+    </div>
+    <!-- Псевдоклассы -->
+    <div class="pseudoclasses" id="pseudoclasses">
+        <div class="block8">
+            <p class="print">Псевдоклассы</p>
+            <p class="print">Класс = принт</p>
+            <p>Не имеет класса (:not)</p>
+            <p class="print">Класс = принт</p>
+        </div>
+        <div class="block9">
+            <p>Первый (:first-child)</p>
+            <p>Второй (:nth-child)</p>
+            <p>Третий (:last-child)</p>
+        </div>
+        <div class="block10">
+            <p>Первый (:nth-of-type)</p>
+            <p>Второй (:nth-child (каждый второй))</p>
+            <p>Третий</p>
+            <p>Четвёртый (:nth-child (каждый второй))</p>
+        </div>
+    </div>
+    <div class="pseudoelements" id="pseudoelements">
+        <div class="block11">
+            Псевдоэлементы
+            <p>Первая буква (:first-letter)</p>
+            <p>Псевдоэлемент ":before"</p>
+            <p>Псевдоэлемент ":after"</p>
+        </div>
+    </div>
+    <div class="semantic-tags" id="semantic-tags">
+        <div class="section">
+        <section>
+            <p>Элементы, которые можно объединить по одной теме нужно объединить в</p>
+            <h1>Компьютер</h1>
+            <p>Видеокарта</p>
+            <p>Процессор</p>
+        </section>
+        </div>
+        <div class="main">
+            <main>
+                <p>Уникальная информация, которая не повторяется на сайте, должна содержаться в </p> 
+            </main>
+        </div>
+        <div class="article">
+            <article>
+                <p>Информация, которая может подойти по любой тематике, например "Новости", указывается в</p>
+                <p>Новости</p>
+                <p>О нас</p>
+            </article>
+        </div>
+        <div class="aside">
+            <aside>
+                <p>Можно разместить абсолютно любую информацию в </p>
+                <a href="">Уральские Пельмени смотреть бесплатно</a>
+            </aside>
+        </div>
+    </div>
+    <div class="display" id="display">
+        <p>display: inline-block; - позиционирует элементы на ширину родительского блока</p>
+        <p>А также часто выравнивает не по той линии, поэтому нужно задавать ещё и vertical-align: middle; </p>
+        <p>display: inline; типа как p - строчный элемент</p>
+    </div>
+    <div class="other" id="other">    
+        <a href="flex.html" class="link1">Flex</a>
+        <a href="media.html" class="link4">Media</a>
+        <a href="lite-site.html" class="link2">Lite Site</a>
+        <a href="hard-site.html" class="link3">Hard Site</a>
+        <a href="/index-tailwind.html" class="link4">Tailwind</a>
+    </div>
+</body>
+</html>

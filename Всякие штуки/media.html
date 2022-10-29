@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/img/android-chrome-512x512.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/media.css">
+    <title>Медиа-запросы</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="header-nav">
+                <ul class="header-nav__items">
+                    <li class="header-nav__item"><a href="/index.html">Назад</a></li>
+                    <li class="header-nav__item"><a href="#info">Что такое медиа-запросы</a></li>
+                    <li class="header-nav__item"><a href="#width">Размеры экранов</a></li>
+                    <li class="header-nav__item"><a href="#examples">Примеры</a></li>
+                </ul>
+            </nav>
+        </header>  
+    </div>
+    <main class="main-content">
+        <div class="info" id="info">
+            <h4 class="main-content__title">Что такое медиа-запросы</h4>
+            <p class="main-content__text">
+                Медиа-запросы применяются для адаптации сайта под экраны 
+                устройств. Для каждого устройства, будь то монитор, телевизор
+                или проектор применяется своё "ключевое слово", например:
+                screen, tv, projection и т.д. Но редко кто этим на самом деле
+                пользуется. Можно использовать вместо "ключевого слова" 
+                значения ширины экрана. Например, мы хотим сделать что-то для телефона, у которго
+                ширина экрана 480 px, тогда мы пишем: <span class="example"><br>(max-width: 480px) {<br>p {<br>color: red;<br>} <br>}</span>
+                <br>На всех мониторах, у которых ширина 480 px, текст в теге p будет красным.
+                Далее рассмотрим на примерах.
+            </p>
+        </div>
+        <div class="width" id="width">
+            <p class="width-text">
+                Размеры экранов:<br>
+                1280px и более (компьютеры),<br>
+                1024px (планшеты и нетбуки (с альбомной ориентацией)),<br>
+                768px (планшеты (портретная ориентация)),<br>
+                600px (небольшие планшеты),<br>
+                480px (телефоны (альбомная ориентация)),<br>
+                320px (телефоны (портретная ориентация)).<br>
+            </p>
+        </div>
+        <div class="examples-info">Делай страницу уже, пока что-нибудь не изменится</div>
+        <div class="examples" id="examples">
+            <div class="max-width">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="images">
+                <img src="/assets/img/news.png" alt="img" class="images__item">
+                <img src="/assets/img/android-chrome-512x512.png" alt="img" class="images__item">
+            </div>
+            <div class="background"></div>
+        </div>
+    </main>
+</body>
+</html>
